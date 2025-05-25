@@ -2,42 +2,42 @@
 
 [English](./README.md) | [简体中文](./README_ZH.md) | [繁體中文](./README_ZH_TW.md)
 
-A simple Bash script to quickly set all three hostnames (ComputerName, HostName, LocalHostName) on macOS.
+一个简单的 Bash 脚本，用于快速设置 macOS 的三种主机名（ComputerName、HostName、LocalHostName）。
 
-## Features
+## 功能
 
-- Changes your Mac's hostname in one command.
-- Works on all modern versions of macOS.
-- No restart required.
+- 一条命令即可修改主机名。
+- 适用于所有现代版本的 macOS。
+- 无需重启。
 
-## Usage
+## 使用方法
 
-1. Clone the repository:
+1. 克隆仓库：
 
     ```sh
     git clone https://github.com/huangsen365/set-macos-hostname.git
     cd set-macos-hostname
     ```
 
-2. Make the script executable:
+2. 赋予脚本可执行权限：
 
     ```sh
     chmod +x set_macos_hostname.sh
     ```
 
-3. Run the script with your desired hostname (use `sudo`):
+3. 使用 `sudo` 运行脚本并传入您想要的主机名：
 
     ```sh
     sudo ./set_macos_hostname.sh <hostname>
     ```
 
-    **Example:**
+    **示例：**
 
     ```sh
     sudo ./set_macos_hostname.sh my-macbook
     ```
 
-4. (Optional) Verify your hostname settings:
+4. （可选）验证主机名设置：
 
     ```sh
     scutil --get ComputerName
@@ -45,8 +45,8 @@ A simple Bash script to quickly set all three hostnames (ComputerName, HostName,
     scutil --get LocalHostName
     ```
 
-## Note
+## 注意
 
-- Script is for **macOS only**.
-- Requires administrator privileges (`sudo`).
+- 脚本仅适用于 **macOS**。
+- 需要管理员权限（`sudo`）。
 
