@@ -1,5 +1,7 @@
 # set-macos-hostname
 
+[English](README.md) | [简体中文](README_ZH.md)
+
 A simple Bash script to quickly set all three hostnames (ComputerName, HostName, LocalHostName) on macOS.
 
 ## Features
@@ -47,3 +49,4 @@ A simple Bash script to quickly set all three hostnames (ComputerName, HostName,
 
 - Script is for **macOS only**.
 - Requires administrator privileges (`sudo`).
+
